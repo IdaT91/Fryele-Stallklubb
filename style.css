@@ -290,6 +290,10 @@ p{
   top: 100px;
 }
 
+.index-img{
+  background: cover;
+}
+
 /* Text dekoration */
 
 h2 {

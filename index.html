@@ -7,28 +7,35 @@
     <title>Hem</title>
     <link rel="stylesheet" href="style.css">
     <a href="index.html"></a>
-
-    <nav id="menu">
-        <ul>
-            <li><a href="Hem.html">Hem</a></li>
-            <li><a href="Föreningen.html">Föreningen</a></li>
-                <ul class="drop-1">
-                    <li><a href="Styrelsen.html">Styrelsen</a></li>
-                    <li><a href="Bli medlem.html">Bli medlem</a></li>
-                </ul>
-            <li><a href="Ridskolan.html">Ridskolan</a></li>
-                <ul class="drop-2">
-                    <li><a href="Våra hästar.html">Våra hästar</a></li>
-                    <li><a href="Vår personal.html">Vår personal</a></li>
-                    <li><a href="Priser & information.html">Priser & information</a></li>
-                </ul>
-            <li><a href="Anläggningen.html">Anläggningen</a></li>
-            <li><a href="Kontakt.html">Kontakt</a></li>
-        </ul>
-        </nav>
-    </div>
 </head>
 <body>
+    <body>
+        <div class="header">
+            <h1>Fryele Stallklubb!</h1>
+        </div>
+    
+        <ul>
+            <li><a href="Hem.html">Hem</a></li>
+            <li class="dropdown">
+                <a href="javascript:void(0)" class="dropbtn">Föreningen</a>
+                <div class="dropdown-content">
+                    <a href="Styrelsen.html">Styrelsen</a>
+                    <a href="Bli Medlem.html">Bli Medlem</a>
+            <li class="dropdown">
+                <a href="javascript:void(0)" class="dropbtn">Ridskolan</a>
+                <div class="dropdown-content">
+                    <a href="Våra hästar.html">Våra hästar</a>
+                    <a href="Vår personal.html">Vår personal</a>
+                    <a href="Priser & information.html">Priser & information</a>
+            <li><a href="Anläggningen.html">Anläggningen</a></li>
+            <li><a href="Kontakt.html">Kontakt</a></li>
+            </div>
+            </li>
+        </ul>
 
+        <div class="index-img">
+            <br>
+            <img src="hästbakgrund.jpg" alt="häst i skog" width="600px" height="600px">
+        </div>
 </body>
 </html>
